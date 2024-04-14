@@ -1,0 +1,30 @@
+.img { 
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.button-link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px auto 40px auto;
+}
+.button-link button{
+    background-color: rgba(31, 31, 32, 0.957); 
+    color: white; 
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: 0.7s ease;
+}
+.button-link button:hover {
+    background-color: rgb(19, 18, 18); 
+}
+
+

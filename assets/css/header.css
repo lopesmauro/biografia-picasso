@@ -1,0 +1,42 @@
+header{
+    background:rgb(19, 18, 18);
+    font-size: 25px;
+    padding-top: 50px;
+    word-spacing: 15px;
+    padding-top: 30px;
+    padding-left: 45px;
+    padding-right: 2.813rem;
+    padding-bottom: 1.6rem;
+}
+nav{
+    color: aliceblue;
+    text-align: center;
+    margin-right: 700px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    margin-right: 30px;
+}
+a{
+    color: inherit;
+    font-family: 'Poppins';
+    transition: 0.5s ease-in-out;
+}
+a:hover{
+    color: rgba(117, 117, 117, 0.957);
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+.title-page {
+    padding: 25px;
+    width: 20;
+    text-align: center;
+    background: rgba(31, 31, 32, 0.957);
+    color: aliceblue;
+    font-family: 'Poppins';
+}
